@@ -1,0 +1,8 @@
+result/
+wandb/
+*.ckpt
+index/
+checkpoint/
+_pycache_/
+deepcore/data
+**/__pycache__/

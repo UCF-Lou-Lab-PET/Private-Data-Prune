@@ -3,8 +3,6 @@ selections="AdaEL2NL1"
 fraction=0.1
 lr=0.5
 num_experiments=1
-datasets=("CIFAR10" )
-data_paths=("./deepcore/data/cifar10")
 classes=(10)
 
 for n in 1; do

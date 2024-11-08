@@ -1,0 +1,165 @@
+
+================== Exp 0 ==================
+
+dataset: TL_DERMA, model: Linear, selection: AdaEL2NL1, num_ex: 1, epochs: 23, fraction: 0.1, seed: 19932, lr: 0.95, save_path: ./result, resume: , device: cuda, checkpoint_name: TL_DERMA_Linear_AdaEL2NL1_exp0_epoch23_0.1_
+
+feature dim:  768  class:  7
+Using multiple GPU.
+=> Saving checkpoint for epoch 0, with Prec@1 0.000000.
+perform selection at epoch 0.
+selection method: Random.
+At epoch0, select 701 samples, take 0.00038504600524902344 s.
+/home/zhangyancheng/miniconda3/lib/python3.12/site-packages/torch/nn/modules/linear.py:125: UserWarning: Attempting to run cuBLAS, but there was no current CUDA context! Attempting to set the primary context... (Triggered internally at ../aten/src/ATen/cuda/CublasHandlePool.cpp:135.)
+  return F.linear(input, self.weight, self.bias)
+Epoch: [0][0/6]	Time 1.897 (1.897)	Loss 1.9500 (1.9500)	Prec@1 15.625 (15.625)
+Test: [0/8]	Time 0.227 (0.227)	Loss 1.7597 (1.7597)	Prec@1 60.938 (60.938)
+ * Prec@1 63.310
+Test: [0/16]	Time 0.268 (0.268)	Loss 1.6013 (1.6013)	Prec@1 61.719 (61.719)
+ * Prec@1 62.244
+=> Saving checkpoint for epoch 0, with Prec@1 62.244389.
+Epoch: [1][0/6]	Time 0.229 (0.229)	Loss 1.4654 (1.4654)	Prec@1 65.625 (65.625)
+Test: [0/8]	Time 0.223 (0.223)	Loss 1.0736 (1.0736)	Prec@1 71.094 (71.094)
+ * Prec@1 71.486
+Test: [0/16]	Time 0.221 (0.221)	Loss 1.2050 (1.2050)	Prec@1 69.531 (69.531)
+ * Prec@1 69.576
+=> Saving checkpoint for epoch 1, with Prec@1 69.576060.
+Epoch: [2][0/6]	Time 0.231 (0.231)	Loss 0.7155 (0.7155)	Prec@1 80.469 (80.469)
+Test: [0/8]	Time 0.225 (0.225)	Loss 1.0216 (1.0216)	Prec@1 69.531 (69.531)
+ * Prec@1 71.186
+Test: [0/16]	Time 0.226 (0.226)	Loss 0.9017 (0.9017)	Prec@1 66.406 (66.406)
+ * Prec@1 69.676
+=> Saving checkpoint for epoch 2, with Prec@1 69.675811.
+Epoch: [3][0/6]	Time 0.240 (0.240)	Loss 0.7219 (0.7219)	Prec@1 73.438 (73.438)
+Test: [0/8]	Time 0.227 (0.227)	Loss 1.3702 (1.3702)	Prec@1 67.188 (67.188)
+ * Prec@1 70.090
+Test: [0/16]	Time 0.230 (0.230)	Loss 1.2947 (1.2947)	Prec@1 69.531 (69.531)
+ * Prec@1 70.574
+=> Saving checkpoint for epoch 3, with Prec@1 70.573566.
+Epoch: [4][0/6]	Time 0.230 (0.230)	Loss 0.6985 (0.6985)	Prec@1 76.562 (76.562)
+Test: [0/8]	Time 0.223 (0.223)	Loss 0.8624 (0.8624)	Prec@1 74.219 (74.219)
+ * Prec@1 71.386
+Test: [0/16]	Time 0.234 (0.234)	Loss 0.9780 (0.9780)	Prec@1 68.750 (68.750)
+ * Prec@1 69.825
+perform selection at epoch 5.
+selection method: AdaEL2NL1.
+self n train = len dist train =  7007
+called EL2N-l1, with 1 ensemble and 0 epochs, 7007 all samples
+use a window
+At epoch5, select 701 samples, take 0.731452226638794 s.
+Epoch: [5][0/6]	Time 0.471 (0.471)	Loss 1.4987 (1.4987)	Prec@1 6.250 (6.250)
+Test: [0/8]	Time 0.241 (0.241)	Loss 1.3080 (1.3080)	Prec@1 71.875 (71.875)
+ * Prec@1 70.090
+Test: [0/16]	Time 0.231 (0.231)	Loss 1.2460 (1.2460)	Prec@1 71.875 (71.875)
+ * Prec@1 69.825
+Epoch: [6][0/6]	Time 0.233 (0.233)	Loss 1.9142 (1.9142)	Prec@1 38.281 (38.281)
+Test: [0/8]	Time 0.226 (0.226)	Loss 1.0814 (1.0814)	Prec@1 71.094 (71.094)
+ * Prec@1 70.289
+Test: [0/16]	Time 0.235 (0.235)	Loss 1.1734 (1.1734)	Prec@1 67.188 (67.188)
+ * Prec@1 67.332
+Epoch: [7][0/6]	Time 0.228 (0.228)	Loss 1.1553 (1.1553)	Prec@1 54.688 (54.688)
+Test: [0/8]	Time 0.231 (0.231)	Loss 1.3009 (1.3009)	Prec@1 57.031 (57.031)
+ * Prec@1 59.123
+Test: [0/16]	Time 0.233 (0.233)	Loss 1.4479 (1.4479)	Prec@1 55.469 (55.469)
+ * Prec@1 57.107
+Epoch: [8][0/6]	Time 0.230 (0.230)	Loss 1.9362 (1.9362)	Prec@1 41.406 (41.406)
+Test: [0/8]	Time 0.225 (0.225)	Loss 1.4757 (1.4757)	Prec@1 53.125 (53.125)
+ * Prec@1 59.821
+Test: [0/16]	Time 0.226 (0.226)	Loss 1.4557 (1.4557)	Prec@1 50.781 (50.781)
+ * Prec@1 57.257
+Epoch: [9][0/6]	Time 0.232 (0.232)	Loss 0.9033 (0.9033)	Prec@1 68.750 (68.750)
+Test: [0/8]	Time 0.232 (0.232)	Loss 1.0241 (1.0241)	Prec@1 68.750 (68.750)
+ * Prec@1 71.785
+Test: [0/16]	Time 0.231 (0.231)	Loss 1.0435 (1.0435)	Prec@1 68.750 (68.750)
+ * Prec@1 68.678
+perform selection at epoch 10.
+selection method: AdaEL2NL1.
+self n train = len dist train =  7007
+called EL2N-l1, with 1 ensemble and 0 epochs, 7007 all samples
+use a window
+At epoch10, select 701 samples, take 0.32669591903686523 s.
+Epoch: [10][0/6]	Time 0.234 (0.234)	Loss 1.2359 (1.2359)	Prec@1 12.500 (12.500)
+Test: [0/8]	Time 0.231 (0.231)	Loss 0.7884 (0.7884)	Prec@1 74.219 (74.219)
+ * Prec@1 68.096
+Test: [0/16]	Time 0.230 (0.230)	Loss 1.1269 (1.1269)	Prec@1 62.500 (62.500)
+ * Prec@1 67.681
+Epoch: [11][0/6]	Time 0.233 (0.233)	Loss 0.9972 (0.9972)	Prec@1 57.031 (57.031)
+Test: [0/8]	Time 0.232 (0.232)	Loss 1.0359 (1.0359)	Prec@1 68.750 (68.750)
+ * Prec@1 74.676
+Test: [0/16]	Time 0.237 (0.237)	Loss 0.9874 (0.9874)	Prec@1 75.781 (75.781)
+ * Prec@1 73.267
+=> Saving checkpoint for epoch 11, with Prec@1 73.266833.
+Epoch: [12][0/6]	Time 0.231 (0.231)	Loss 0.9089 (0.9089)	Prec@1 60.938 (60.938)
+Test: [0/8]	Time 0.230 (0.230)	Loss 0.7816 (0.7816)	Prec@1 71.094 (71.094)
+ * Prec@1 75.174
+Test: [0/16]	Time 0.233 (0.233)	Loss 0.9378 (0.9378)	Prec@1 70.312 (70.312)
+ * Prec@1 72.818
+Epoch: [13][0/6]	Time 0.240 (0.240)	Loss 0.6717 (0.6717)	Prec@1 69.531 (69.531)
+Test: [0/8]	Time 0.228 (0.228)	Loss 0.9679 (0.9679)	Prec@1 73.438 (73.438)
+ * Prec@1 75.773
+Test: [0/16]	Time 0.233 (0.233)	Loss 0.8735 (0.8735)	Prec@1 71.875 (71.875)
+ * Prec@1 73.766
+=> Saving checkpoint for epoch 13, with Prec@1 73.765586.
+Epoch: [14][0/6]	Time 0.235 (0.235)	Loss 0.6941 (0.6941)	Prec@1 71.875 (71.875)
+Test: [0/8]	Time 0.233 (0.233)	Loss 0.8648 (0.8648)	Prec@1 71.875 (71.875)
+ * Prec@1 75.374
+Test: [0/16]	Time 0.230 (0.230)	Loss 0.8764 (0.8764)	Prec@1 74.219 (74.219)
+ * Prec@1 74.115
+=> Saving checkpoint for epoch 14, with Prec@1 74.114713.
+perform selection at epoch 15.
+selection method: AdaEL2NL1.
+self n train = len dist train =  7007
+called EL2N-l1, with 1 ensemble and 0 epochs, 7007 all samples
+use a window
+At epoch15, select 701 samples, take 0.3248591423034668 s.
+Epoch: [15][0/6]	Time 0.229 (0.229)	Loss 0.8186 (0.8186)	Prec@1 65.625 (65.625)
+Test: [0/8]	Time 0.237 (0.237)	Loss 0.7418 (0.7418)	Prec@1 79.688 (79.688)
+ * Prec@1 76.570
+Test: [0/16]	Time 0.228 (0.228)	Loss 0.8781 (0.8781)	Prec@1 73.438 (73.438)
+ * Prec@1 73.367
+Epoch: [16][0/6]	Time 0.234 (0.234)	Loss 0.7079 (0.7079)	Prec@1 77.344 (77.344)
+Test: [0/8]	Time 0.229 (0.229)	Loss 0.8266 (0.8266)	Prec@1 71.875 (71.875)
+ * Prec@1 76.471
+Test: [0/16]	Time 0.235 (0.235)	Loss 0.8482 (0.8482)	Prec@1 72.656 (72.656)
+ * Prec@1 73.716
+Epoch: [17][0/6]	Time 0.233 (0.233)	Loss 0.6980 (0.6980)	Prec@1 77.344 (77.344)
+Test: [0/8]	Time 0.232 (0.232)	Loss 0.7110 (0.7110)	Prec@1 79.688 (79.688)
+ * Prec@1 76.670
+Test: [0/16]	Time 0.232 (0.232)	Loss 0.8415 (0.8415)	Prec@1 73.438 (73.438)
+ * Prec@1 73.915
+Epoch: [18][0/6]	Time 0.238 (0.238)	Loss 0.6355 (0.6355)	Prec@1 80.469 (80.469)
+Test: [0/8]	Time 0.238 (0.238)	Loss 1.0020 (1.0020)	Prec@1 73.438 (73.438)
+ * Prec@1 77.069
+Test: [0/16]	Time 0.234 (0.234)	Loss 0.8573 (0.8573)	Prec@1 74.219 (74.219)
+ * Prec@1 74.663
+=> Saving checkpoint for epoch 18, with Prec@1 74.663342.
+Epoch: [19][0/6]	Time 0.236 (0.236)	Loss 0.6289 (0.6289)	Prec@1 80.469 (80.469)
+Test: [0/8]	Time 0.223 (0.223)	Loss 0.7961 (0.7961)	Prec@1 75.781 (75.781)
+ * Prec@1 76.570
+Test: [0/16]	Time 0.230 (0.230)	Loss 0.8422 (0.8422)	Prec@1 74.219 (74.219)
+ * Prec@1 74.564
+perform selection at epoch 20.
+selection method: AdaEL2NL1.
+self n train = len dist train =  7007
+called EL2N-l1, with 1 ensemble and 0 epochs, 7007 all samples
+use a window
+At epoch20, select 701 samples, take 0.32974863052368164 s.
+Epoch: [20][0/6]	Time 0.234 (0.234)	Loss 0.7005 (0.7005)	Prec@1 78.125 (78.125)
+Test: [0/8]	Time 0.237 (0.237)	Loss 0.7299 (0.7299)	Prec@1 82.031 (82.031)
+ * Prec@1 77.069
+Test: [0/16]	Time 0.236 (0.236)	Loss 0.8499 (0.8499)	Prec@1 75.000 (75.000)
+ * Prec@1 75.212
+=> Saving checkpoint for epoch 20, with Prec@1 75.211970.
+Epoch: [21][0/6]	Time 0.233 (0.233)	Loss 0.6917 (0.6917)	Prec@1 78.125 (78.125)
+Test: [0/8]	Time 0.227 (0.227)	Loss 0.8911 (0.8911)	Prec@1 72.656 (72.656)
+ * Prec@1 77.069
+Test: [0/16]	Time 0.230 (0.230)	Loss 0.8490 (0.8490)	Prec@1 75.781 (75.781)
+ * Prec@1 75.362
+=> Saving checkpoint for epoch 21, with Prec@1 75.361596.
+Epoch: [22][0/6]	Time 0.229 (0.229)	Loss 0.6637 (0.6637)	Prec@1 82.812 (82.812)
+Test: [0/8]	Time 0.226 (0.226)	Loss 0.7310 (0.7310)	Prec@1 77.344 (77.344)
+ * Prec@1 77.168
+Test: [0/16]	Time 0.231 (0.231)	Loss 0.8455 (0.8455)	Prec@1 75.781 (75.781)
+ * Prec@1 75.062
+training time:  2.4545934200286865
+test time:  0.406146764755249
+| Best accuracy:  75.36159602900098

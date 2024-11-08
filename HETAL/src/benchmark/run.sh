@@ -1,0 +1,1 @@
+python matmul.py --algorithm hetal --num_iter 1

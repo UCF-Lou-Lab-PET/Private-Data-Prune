@@ -1,0 +1,1 @@
+python run.py --data mnist --num_epoch 1 --generate_keys --encrypted_train

@@ -1,0 +1,12 @@
+result/
+wandb/
+*.ckpt
+index/
+checkpoint/
+_pycache_/
+deepcore/data
+.vscode/
+data/
+**/__pycache__/
+**/build/
+**/keys/
